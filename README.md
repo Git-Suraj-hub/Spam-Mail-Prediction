@@ -1,7 +1,7 @@
 
 # 📧 Spam Mail Prediction Web App
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://your-deployment-link.streamlit.app/)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://spam-mail-prediction-web.streamlit.app/)
 [![GitHub stars](https://img.shields.io/github/stars/Git-Suraj-hub/Spam-Mail-Prediction?style=social)](https://github.com/Git-Suraj-hub/Spam-Mail-Prediction)
 
 This is a machine learning-based web application built with Streamlit that classifies emails or messages as spam or not spam. It provides an easy-to-use interface for users to test their texts using a trained classification model.
