@@ -86,9 +86,10 @@ To deploy on **Streamlit Cloud**:
 
 ## 📸 Screenshots
 
-![Screenshot](Screenshot/Spam_mail.png)
+![Screenshot](Page3.png)
 
-Make sure to upload the `app_ui.png` file into a `screenshots/` folder in your repo.
+---
+
 
 ---
 
