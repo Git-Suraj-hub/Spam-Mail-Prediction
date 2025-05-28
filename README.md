@@ -86,11 +86,7 @@ To deploy on **Streamlit Cloud**:
 
 ## 📸 Screenshots
 
-You can include a screenshot like this in your README:
-
-```markdown
-![App Screenshot](screenshots/app_ui.png)
-```
+![Screenshot](Screenshot/Spam_mail.png)
 
 Make sure to upload the `app_ui.png` file into a `screenshots/` folder in your repo.
 
