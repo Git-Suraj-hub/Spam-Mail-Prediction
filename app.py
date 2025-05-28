@@ -7,10 +7,10 @@ from sklearn.model_selection import train_test_split
 
 pd.set_option('future.no_silent_downcasting', True)
 
-model = pickle.load(open(r'C:\Users\suraj\PycharmProjects\Spam Mail Detection\model.sav', 'rb'))
-Feautre_Extraction = pickle.load(open(r'C:\Users\suraj\PycharmProjects\Spam Mail Detection\Feature_Extraction.sav', 'rb'))
+model = pickle.load(open(r'model.sav', 'rb'))
+Feautre_Extraction = pickle.load(open(r'Feature_Extraction.sav', 'rb'))
 
-raw_mail_data = pd.read_csv(r'C:\Users\suraj\PycharmProjects\Spam Mail Detection\mail_data.csv')
+raw_mail_data = pd.read_csv(r'mail_data.csv')
 
 raw_mail_data['Category'] = raw_mail_data['Category'].replace({'spam': 0, 'ham': 1})
 
