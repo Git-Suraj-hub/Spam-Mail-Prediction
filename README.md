@@ -2,7 +2,7 @@
 # 📧 Spam Mail Prediction Web App
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://your-deployment-link.streamlit.app/)
-[![GitHub stars](https://img.shields.io/github/stars/Git-Suraj-hub/spam-mail-prediction?style=social)](https://github.com/Git-Suraj-hub/spam-mail-prediction)
+[![GitHub stars](https://img.shields.io/github/stars/Git-Suraj-hub/Spam-Mail-Prediction?style=social)](https://github.com/Git-Suraj-hub/Spam-Mail-Prediction)
 
 This is a machine learning-based web application built with Streamlit that classifies emails or messages as spam or not spam. It provides an easy-to-use interface for users to test their texts using a trained classification model.
 
@@ -11,7 +11,7 @@ This is a machine learning-based web application built with Streamlit that class
 ## 🚀 Features
 
 - 🔤 Classifies email/message text as **Spam** or **Not Spam**.
-- 📈 Utilizes a trained machine learning model (`spam_model.sav`).
+- 📈 Utilizes a trained machine learning model (`model.sav`).
 - 🧠 Clean and simple Streamlit interface.
 - 🌙 Dark mode enabled by default.
 
@@ -22,7 +22,9 @@ This is a machine learning-based web application built with Streamlit that class
 ```
 spam-mail-prediction/
 ├── app.py                 # Main Streamlit app
-├── spam_model.sav         # Trained classification model
+├── mail.csv               # Spam Mail Dataset
+├── LICENSE                # MIT License
+├── model.sav              # Trained classification model
 ├── requirements.txt       # Python dependencies
 └── .streamlit/
     └── config.toml        # Dark mode configuration
@@ -35,7 +37,7 @@ spam-mail-prediction/
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/Git-Suraj-hub/spam-mail-prediction.git
+   git clone https://github.com/Git-Suraj-hub/Spam-Mail-Prediction.git
    cd spam-mail-prediction
    ```
 
